@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.date = %q{2009-04-22}
   s.description = %q{Bundled subversion support for integrity}
   s.email = %q{gems@benkoski.com}
-  s.files = ["lib/integrity", "lib/integrity_subversion.rb", "lib/integrity/scm", "lib/integrity/scm.rb", "lib/integrity/scm/git.rb", "lib/integrity/scm/subversion", "lib/integrity/scm/subversion.rb", "lib/integrity/scm/subversion/uri.rb", "README", "LICENSE"]
+  s.files = ["lib/integrity", "lib/integrity_subversion.rb", "lib/integrity/scm", "lib/integrity/scm.rb", "lib/integrity/scm/git.rb", "lib/integrity/scm/subversion", "lib/integrity/scm/subversion.rb", "lib/integrity/scm/subversion/uri.rb", "README.rdoc", "LICENSE"]
   s.has_rdoc = true
   s.homepage = %q{http://github.com/bkoski/integrity-subversion}
   s.rdoc_options = ["--inline-source", "--charset=UTF-8"]

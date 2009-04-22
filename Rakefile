@@ -9,7 +9,7 @@ begin
     s.homepage = "http://github.com/bkoski/integrity-subversion"
     s.description = "Bundled subversion support for integrity"
     s.authors = ["Ben Koski"]
-    s.files = FileList["{lib,lib/integrity,lib/integrity/scm,lib/integrity/scm/subversion}**/*", "README", "LICENSE"]
+    s.files = FileList["{lib,lib/integrity,lib/integrity/scm,lib/integrity/scm/subversion}**/*", "README.rdoc", "LICENSE"]
         
     s.add_dependency 'integrity'
     s.add_dependency 'thor'
