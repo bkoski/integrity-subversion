@@ -1,7 +1,17 @@
-integrity-subversion====================
-Description goes here.
+= integrity-subversion
 
-COPYRIGHT
-=========
+SVN support is {in the works}[http://integrity.lighthouseapp.com/projects/14308/tickets/58-svn-support#ticket-58-13]
+for Integrity[http://integrityapp.com], but in the meantime copiousfreetime built SVN support into a {branch on github}[http://github.com/copiousfreetime/integrity/tree/svn].
 
-Copyright (c) 2008 Ben Koski. See LICENSE for details.
+I took Jeremey's patch and rolled it into a gem to make installation into an existing copy
+of Integrity a snap.
+
+Just install the gem:
+
+  sudo gem install bkoski-integrity-subversion --source http://gems.github.com
+  
+and then add
+
+  require 'integrity_subversion'
+  
+to Integrity's config.ru (after the rubygems require, of course...).
